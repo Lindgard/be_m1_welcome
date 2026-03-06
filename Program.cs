@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Hello, welcome to the message-generator");
+        Console.ResetColor();
     }
 }
