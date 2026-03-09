@@ -2,7 +2,7 @@ namespace be_m1_welcome.Classes;
 
 public class HolidayCalendar
 {
-    private Dictionary<DateTime, string> _holidays = new();
+    //! private Dictionary<DateTime as string, string> _holidays = new Dictionary(DateTime as string, string);
 
     public bool IsHoliday(DateTime date)
     {
