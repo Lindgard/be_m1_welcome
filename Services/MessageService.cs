@@ -7,4 +7,9 @@ public class MessageService
     //? i Program.cs og fortsatt la samme variabel bli brukt begge steder?
     //* Business-logic for the welcome message
     //* based on date and time from datetime in System.
+
+    //? Bruke en switch basert på formiddag, ettermiddag, kveld for bestemmelse av hilsen?
+    //* DateTime.Now, hour, DayOfWeek, Month? Inkorporere HolidayCalendar.cs?
+
+    //? parse input, la bruker legge ved tall?
 }
